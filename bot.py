@@ -51,8 +51,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AnkiSupport_Official"),
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/ankivectorUpdates")
+                        InlineKeyboardButton("Bot creator", url="https://t.me/fr1day_pon")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot")
@@ -98,7 +97,7 @@ async def main(bot: Client, message: Message):
                 pass
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/AnkiSupport_Official)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support](https://t.me/fr1day_pon)",
                                      disable_web_page_preview=True)
             return
 
@@ -118,8 +117,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Updates Channel", url="https://t.me/ankivectorUpdates"),
-                      InlineKeyboardButton("Support Group", url="https://t.me/AnkiSupport_Official")]]
+                     [InlineKeyboardButton("Subscribe Channel", url="https://t.me/ipa_fire_ios_uz"),
+                      InlineKeyboardButton("Support", url="https://t.me/fr1day_pon")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -330,10 +329,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/Damantha126/FileToLinkBot")
-                    ],
-                    [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("Go Home", callback_data="gotohome")
                     ]
@@ -349,8 +344,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AnkiSupport_Official"),
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/ankivectorUpdates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/fr1day_pon"),
+                        InlineKeyboardButton("Subscribe Channel", url="https://t.me/ipa_fire_ios_uz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -367,7 +362,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AnkiSupport_Official).",
+                        text="Sorry Sir, You are Banned to use me. Contact me [Support](https://t.me/fr1day_pon).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -402,8 +397,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AnkiSupport_Official"),
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/ankivectorUpdates")
+                        InlineKeyboardButton("Support", url="https://t.me/fr1day_pon"),
+                        InlineKeyboardButton("Subscribe Channel", url="https://t.me/ipa_fire_ios_uz")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
