@@ -47,7 +47,7 @@ This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.co
 
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Damantha126/FileToLinkBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/irore-fr1day/FileToLinkBot)
 
 # 🧙‍♀️ Deploy Guide
 
@@ -70,5 +70,3 @@ This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.co
 <a href="https://t.me/AnkiSupport_Official"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 # Special Credits ❤
-
-## ✪ [Abir Hasan](https://github.com/AbirHasan2005/PyroFilesStoreBot) - Owner Of This Repo
