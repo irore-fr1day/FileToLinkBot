@@ -65,8 +65,3 @@ This is Telegram Parmanent Files Store Bot by [@AbirHasan2005](https://github.co
 /unban_user - [user_id] Unban Any User
 /banned_users - Get All Banned Users
 ```
-
-### Support Group:
-<a href="https://t.me/AnkiSupport_Official"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
-
-# Special Credits ❤
